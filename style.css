@@ -269,7 +269,7 @@ body {
 }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("./images/hero-b.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -282,7 +282,7 @@ body {
 .hero-banner {
   width: 150px;
   height: 172px;
-  background-color: var(--independence);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: var(--radius-10);
   margin-inline: auto;
   margin-block-end: 30px;
