@@ -143,11 +143,11 @@ body {
 }
 
 .btn-primary.blue {
-  background-color: var(--klein-blue);
+  background-color: #4b70e2;
 }
 
 .btn-primary.blue:is(:hover, :focus) {
-  background-color: var(--orange-soda);
+  background-color: rgb(207, 207, 5);
 }
 
 .img-cover {
@@ -255,12 +255,15 @@ body {
 }
 
 .navbar-link:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: rgb(255, 255, 3);
 }
 
 .navbar .btn {
-  background-color: var(--orange-soda);
+  background-color: #4b70e2;
   margin-block-start: 15px;
+}
+.navbar .btn:hover {
+  background-color: rgb(207, 207, 3);
 }
 
 .elem,
@@ -442,7 +445,7 @@ body {
   border-radius: inherit;
 }
 .contact-card {
-  background-color: var(--midnight-blue);
+  background-color: rgba(38, 40, 141, 0.8);
   padding: 50px 25px;
   border-radius: var(--radius-20);
 }
