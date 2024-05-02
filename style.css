@@ -321,10 +321,11 @@ body {
 .hero-banner {
   width: 150px;
   height: 172px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: var(--radius-10);
   margin-inline: auto;
   margin-block-end: 30px;
+  backdrop-filter: blur(10px);
 }
 
 .hero-banner img {
